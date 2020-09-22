@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  .logo {
+    background-color: pink;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 5px solid green;
+    padding: 3px;
+  }
+  
+  div {
+    margin: 3px;
+  }
+  
+  .sect-one {
+    width: 50%;
+    border: 2px dashed red;
+    background-color: peachpuff;
+  }
+  
+  .row-wrap {
+    display: flex;
+  }
+  
+  .column-wrap {
+    display: flex;
+    justify-content: center;
+  }
+  
+  section {
+    border: 5px solid green;
+  }
+  
+  div {
+    border: 5px solid purple;
+  }
+  
