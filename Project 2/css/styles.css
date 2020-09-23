@@ -4,73 +4,55 @@ html {
   }
   
   .logo {
-    background-color: white;
-  }
+    height: 50px;
+    width: 75;
+   }
   
-  .main {
-      display: inline-flex;;
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* border: 5px solid green; */
-    /* padding: 3px; */
-  } 
-  
-  /* div { */
-    /* margin: 3px; */
-  /* } */
-  
-  /* .sect-one { */
-    /* width: 50%; */
-    /* border: 2px dashed red; */
-    /* background-color: peachpuff; */
-  /* } */
-  
-  /* .row-wrap { */
-    /* display: flex; */
-  /* } */
-  
-  /* .column-wrap { */
-    /* display: flex; */
-    /* justify-content: center; */
-  /* } */
-  
-  /* .filters {
-    display: flex;
-    border-radius: 50px;
-    border: 5px solid wheat;
+  .filters {
+    display: inline-flex;
+    border-radius: 20px;
     margin: 50px;
-    padding: 10px;
-  } */
+    padding: 12px;
+  }
 
   #lowcost {
-    display: inline-flex;
     padding: 12px;
     border: 2px solid #F2F2;
     border-radius: 20px;
   }
 
   #family {
-    display: inline-flex;
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
   }
 
   #Romantic {
-    display: inline-flex;
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
   }
 
   #Pets {
-    display: inline-flex;
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
   }
 
-  #Links {
-    margin: 0px;
-    padding: 0px;
+  .Links {
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .Signup {
+    flex: 100px 1 auto;
+  }
+
+  .Activites {
+    flex: 100px 1 auto;
+  }
+
+  .Accommodations {
+    flex: 100px 1 auto;
   }
