@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
+    margin: 30px;
   }
   
   .logo {
@@ -11,7 +12,6 @@ html {
   .filters {
     display: inline-flex;
     border-radius: 20px;
-    margin: 50px;
     padding: 12px;
   }
 
@@ -19,40 +19,71 @@ html {
     padding: 12px;
     border: 2px solid #F2F2;
     border-radius: 20px;
+    color: blue;
   }
 
   #family {
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
+    color: blue;
   }
 
   #Romantic {
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
+    color: blue;
   }
 
   #Pets {
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
+    color: blue;
   }
 
   .Links {
     display: flex;
     flex-direction: row-reverse;
-
   }
 
   .Signup {
-    flex: 100px 1 auto;
+    width: 100px;
+    font-style: bold;
+    color: blue;
   }
 
   .Activites {
-    flex: 100px 1 auto;
+    width: 150px;
   }
 
   .Accommodations {
-    flex: 100px 1 auto;
+    width: 200px;
+    color: blue;
+  }
+
+  h1 {
+    margin-bottom: 0px;
+    font-style: bold;
+  }
+
+  h3 {
+    margin-top: 5px;
+    font-weight: 100;
+  }
+  
+  footer {
+    display: flex;
+    background-color: gray;
+  }
+
+  .btops {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+  }
+
+  p {
+    font-weight: 600;
   }
