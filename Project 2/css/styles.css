@@ -1,4 +1,4 @@
-html {
+  html {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     margin: 30px;
@@ -76,14 +76,118 @@ html {
   footer {
     display: flex;
     background-color: gray;
+    margin-top: 20px;
   }
 
   .btops {
     display: flex;
     flex-direction: row;
     font-weight: 600;
+    justify-content: space-evenly;
+    width: 500px;
   }
 
   p {
     font-weight: 600;
+  }
+
+  .AccomCards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 200px;
+  }
+
+  .AccomCards:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  /* .AcommContainer {
+    padding: 2px 16px;
+  } */
+
+  img {
+    border-radius: 5px;
+  }
+
+  .Auberge {
+    width: 150px;
+    height: 100px;
+  }
+
+  .Les {
+    width: 150px;
+    height: 100px;
+  }
+  
+  /* main {
+    display: flex;
+  } */
+
+  .AccomCardsF {
+    background-color: lightgrey;
+    width: 1000px;
+    height: 500px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .ActivitesIM {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+  }
+
+  .OldPort {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+  
+  .Pomegues {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .Frioul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .Calanques {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .Notre {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .Longchamp {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+  }
+
+  .OldPortImg {
+    width: 300px;
+    height: 350px;
+  }
+
+  .PomeguesImg {
+    width: 250px;
+    height: 200px;
+  }
+
+  .FrioulImg {
+    width: 200px;
+    height: 100px;
   }
