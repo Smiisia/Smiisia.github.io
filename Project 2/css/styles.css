@@ -10,33 +10,65 @@
    }
   
   .filters {
-    display: inline-flex;
+    display: flex;
     border-radius: 20px;
-    padding: 12px;
+    /* padding: 12px; */
   }
 
-  #lowcost {
+  .lowcost {
     padding: 12px;
     border: 2px solid #F2F2;
     border-radius: 20px;
     color: #0065FC;
   }
 
-  #family {
+  .dollar {
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+  }
+
+  .child {
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+  }
+
+  .heart {
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+  }
+
+  .dog {
+    background-color: #deebff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+  }
+
+  .family {
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
     color: #0065FC;
   }
 
-  #Romantic {
+  .romantic {
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
     color: #0065FC;
   }
 
-  #Pets {
+  .pets {
     border: solid 2px #F2F2;
     padding: 12px;
     border-radius: 20px;
@@ -68,10 +100,10 @@
     font-style: bold;
   }
 
-  h3 {
+  /* h3 {
     margin-top: 5px;
     font-weight: 100;
-  }
+  } */
   
   footer {
     display: flex;
@@ -94,157 +126,106 @@
     font-weight: 600;
   }
 
-  /* .AccomCards {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-    width: 200px;
-  } */
-
   /* .AccomCards:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   } */
 
-  /* .AcommContainer {
-    padding: 2px 16px;
-  } */
-
-  img {
-    border-radius: 15px;
-  }
-
   .aubergeC {
-    width: 150px;
-    height: 100px;
+    width: 235px;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   .les {
-    width: 150px;
-    height: 100px;
+    width: 235px;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
   }
 
   .hotel-port {
-    width: 150px;
-    height: 100px;
+    width: 235px;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
   }
 
   .hotel-mer {
-    width: 150px;
-    height: 100px;
+    width: 235px;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
   }
 
   .aubergeP {
-    width: 150px;
-    height: 100px;
+    width: 235px;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
   }
 
   .hotel-chez {
-    width: 150px;
-    height: 100px;
+    width: 235px;
+    height: 115px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 5px;
   }
-  
-  /* main {
-    display: flex;
-  } */
-
-  .acc-card-wrapper {
-    background-color: #f0f0f1;
-    width: 880px;
-    height: 625px;
-    border-radius: 5px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* grid-template-columns: repeat(3 1fr); */
-  }
-
-  .ActivitesIM {
-    display: flex;
-    flex-wrap: row wrap;
-    justify-content: space-between;
-  }
-
-  /* .OldPort {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-  } */
-  
-  /* .Pomegues {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-  }
-
-  .Frioul {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-  }
-
-  .Calanques {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-  }
-
-  .Notre {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-  }
-
-  .Longchamp {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-    border-radius: 5px;
-  } */
 
   .OldPortImg {
     width: 300px;
     height: 440px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .PomeguesImg {
     width: 300px;
     height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .FrioulImg {
     width: 300px;
     height: 160px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .CalanquesImg {
     width: 300px;
     height: 440px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .NotreImg {
     width: 300px;
     height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
 
   .LongchampImg {
     width: 300px;
     height: 250px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
   }
-
-
-  /* .activites {
-    padding: 15px;
-    margin: 15px;  
-    gap: 10px;
-  } */
 
   .act-card-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    /* margin-left: -60px;
-    margin-right: -60px; */
-    /* justify-content: space-between; */
-    /* justify-content: space-evenly; */
   }
 
   /* first card */
@@ -286,7 +267,87 @@
     border-radius: 15px;
   }
 
-  /* .Accom {
-    width: 300px;
-    height: 500px;
-  } */
+  .Accom {
+    background-color: #f0f0f1;
+    width: 880px;
+    height: 625px;
+    border-radius: 15px;
+  }
+
+  .Bluestar {
+    color: blue;
+  }
+
+  .Graystar {
+    color: gray;
+  }
+
+  .section-wrapper {
+    display: flex;
+  }
+
+  .accom-cards {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 245px;
+    /* height: 200px; */
+    margin: 5px;
+  }
+
+  .acc-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 15px;
+  }
+
+  h4 {
+    margin: 5px;
+  }
+
+  h5 {
+    margin: 5px;
+  }
+
+  .most {
+    background-color: #f0f0f1;
+    width: 420px;
+    height: 620px;
+    border-radius: 15px;
+    margin-left: 200px;
+  }
+
+  .most-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 15px;
+    width: 350x;
+    height: 145px;
+    margin: 5px;
+  }
+
+  .morning {
+    width: 130px;
+    height: 140px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .au-coeur {
+    width: 130px;
+    height: 140px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .tout {
+    width: 130px;
+    height: 140px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+
+  .cards-inside {
+    text-align: right;
+  }
