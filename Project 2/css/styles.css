@@ -1,36 +1,52 @@
   html {
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
-    margin: 30px;
+    margin: 0 30px;
   }
-  
+
   .logo {
     height: 50px;
     width: 75;
    }
-  
+
   .filters {
     display: flex;
-    border-radius: 20px;
+    border-radius: 35px;
     /* padding: 12px; */
   }
 
   .lowcost {
-    padding: 12px;
+    /* padding: 12px; */
     border: 2px solid #F2F2;
     border-radius: 20px;
-    color: #0065FC;
+    /* color: #0065FC; */
+    /* background-color: #deebff; */
+    /* width: 165px; */
+    /* height: 40px; */
+    /* text-align: right; */
+    /* padding-top: 13px;
+    padding-right: 10px; */
+    padding-right: 10px;
   }
 
-  .dollar {
+  .lowcost span {
+    padding-top: 15px;
+  }
+
+  .filter-icon {
     background-color: #deebff;
     border-radius: 50%;
-    width: 45px;
-    height: 45px;
     text-align: center;
+    /* margin-top: 30px; */
+    color: #0065FC;
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 0;
   }
 
-  .child {
+  /* .child {
     background-color: #deebff;
     border-radius: 50%;
     width: 45px;
@@ -73,7 +89,7 @@
     padding: 12px;
     border-radius: 20px;
     color: #0065FC;
-  }
+  } */
 
   .Links {
     display: flex;
@@ -104,7 +120,7 @@
     margin-top: 5px;
     font-weight: 100;
   } */
-  
+
   footer {
     display: flex;
     background-color: #e9eaeb;
@@ -368,9 +384,49 @@
     margin-left: 45px;
     margin-top: 50px;
   }
-  
+
   .info {
     background-color: blue;
     border-radius: 50%;
     color: white;
   }
+
+  .activities {
+
+  }
+
+  @media screen and (max-width: 480px) {
+    html {
+      margin: 0;
+    }
+    
+    .section-wrapper {
+      display: inline;
+    }
+  
+    .Accom {
+      width: 480px;
+      background-color: white;
+      margin-bottom: -1250px;
+      margin-top: 650px;
+    }
+  
+    .most {
+      margin-left: 0;
+      padding: 0;
+      width: 480px;
+      margin-bottom: 1400px;
+      border-radius: 0;
+      /* margin-top: 200px; */
+    }
+
+    .body {
+      margin: 0;
+    }
+
+    .accom-cards {
+      height: 330px;
+      width: 195px;
+    }
+  }
+  /* Object cover: fit */
