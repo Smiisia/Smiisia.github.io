@@ -9,10 +9,6 @@ body {
   margin: 0;
 }
 
-.logo {
-  height: 50px;
-  }
-
 .filters {
   border-radius: 35px;
   font-weight: 700;
@@ -99,30 +95,59 @@ body {
   font-size: initial;
 }
 
-.Links {
+.other-links {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 50px;
+  margin-top: -40px;
+  justify-content: space-between;
+  float: right;
+  width: 18%;
+  margin-right: 8%;
 }
+
+.header-wrapper {
+  width: 100%;
+  margin-top: 3%;
+}
+
+.logo {
+  height: 50px;
+  }
 
 .Signup {
-  width: 100px;
-  font-style: bold;
+  font-weight: bold;
   color: blue;
-}
-
-.Activiteslink {
-  width: 150px;
+  margin-top: 1%;
+  float: right;
 }
 
 .Accommodations {
-  width: 200px;
   color: blue;
+}
+
+.hover-line {
+  border-top: black solid 5px;
+  display: none;
+}
+
+.Signup:hover > .hover-line { 
+  display: block;
+  margin: -58%;
+}
+
+.Accommodations:hover > .hover-line { 
+  display: block;
+  margin: -58%;
+}
+
+.Activitieslink:hover > .hover-line { 
+  display: block;
+  margin: -58%;
 }
 
 h1 {
   margin-bottom: 0px;
-  font-style: bold;
+  font-weight: 600;
 }
 
 h3 {
@@ -317,6 +342,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  flex-grow: 2;
 }
 
 h4 {
@@ -420,8 +446,8 @@ h5 {
 }
 
 .chart {
-  margin-left: 55%;
-  position: sticky;
+  float: right;
+
 }
 
 .text-show {
@@ -471,6 +497,42 @@ html {
   margin: 0;
   padding: 0;
 }
+
+.header-wrapper {
+  margin-top: 5%;
+}
+
+header {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+/* .Links {
+  width: unset;
+}
+
+.header-wrapper {
+  justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.Signup {
+  margin-right: 3em;
+}
+
+.Activiteslink {
+  margin-top: 5em;
+  margin-left: 7em;
+}
+
+.Accommodations {
+  margin-top: 5em;
+}
+
+.logo {
+  margin: 0;
+} */
 
 .accom {
   width: fit-content;
@@ -569,10 +631,6 @@ html {
   width: 330px;
 }
 
-.chart {
-  margin-left: 69%;
-}
-
 .most-title {
   padding-top: 5%;
   transform: translateX(30px);
@@ -606,10 +664,6 @@ html {
     padding: 16px 15px 13px 15px;
 }
 
-.Links {
-  margin-top: 30px;
-}
-
 .btops {
   flex-direction: column;
   margin: 0;
@@ -638,7 +692,8 @@ footer {
 }
 
 .chart {
-  margin-left: 58%;
+  margin-left: 55%;
+  float: none;
 }
 
 }
