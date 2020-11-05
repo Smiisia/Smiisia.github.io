@@ -9,14 +9,9 @@ body {
   margin: 0;
 }
 
-.filters {
-  border-radius: 35px;
-  font-weight: 700;
-}
-
-.search_bar {
+/* .search_bar {
   margin-bottom: 20px;
-}
+} */
 
 .marker {
   background-color: #e9eaeb;
@@ -39,22 +34,23 @@ body {
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   vertical-align: middle;
-  padding: 16px 15px 13px 15px;
+  padding: 17px 15px 12px 15px;
+  font-size: larger;
 }
 
 .zoom {
   color: white;
 }
 
-.textbox {
+.search-bar {
   border-top: #e9eaeb solid 1px;
   border-bottom: #e9eaeb solid 1px;
-  padding: 14px 6% 13px 2%;
+  padding: 18px 6% 13px 2%;
   margin-left: -2%;
   margin-right: -1%;
-  text-align: left;
-  font-weight: 600;
+  margin-bottom: 20px;
 }
+
 .filter_buttons {
   background-color: white;
   border-radius: 25px;
@@ -67,6 +63,12 @@ body {
 .filter_title {
   margin-right: 10px;
   font-size: large;
+}
+
+.filters {
+  border-radius: 35px;
+  font-weight: 700;
+  display: inline;
 }
 
 .filter_buttons > span {
@@ -116,33 +118,18 @@ body {
 
 .Signup {
   font-weight: bold;
-  color: blue;
+  color: #0065fc;
   margin-top: 1%;
   float: right;
 }
 
-.Accommodations {
-  color: blue;
+nav a {
+  color: #0065fc;
+  text-decoration: none;
 }
 
-.hover-line {
-  border-top: black solid 5px;
-  display: none;
-}
-
-.Signup:hover > .hover-line { 
-  display: block;
-  margin: -58%;
-}
-
-.Accommodations:hover > .hover-line { 
-  display: block;
-  margin: -58%;
-}
-
-.Activitieslink:hover > .hover-line { 
-  display: block;
-  margin: -58%;
+nav a:hover {
+  color: black;
 }
 
 h1 {
@@ -152,6 +139,23 @@ h1 {
 
 h3 {
   font-weight: 500;
+}
+
+.more-text {
+  font-weight: 500;
+}
+
+h4 {
+  margin: 5px;
+  font-size: smaller;
+}
+h5 {
+  margin: 5px;
+  font-weight: 400;
+}
+
+p {
+  font-weight: 300;
 }
 
 footer {
@@ -179,10 +183,6 @@ footer {
 
 .assist {
   margin-right: 170px;
-}
-
-p {
-  font-weight: 300;
 }
 
 .assit-info {
@@ -297,6 +297,10 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   font-weight: 700;
 }
 
+.activity-card:hover {
+  box-shadow: 10px 8px 16px 10px rgba(0, 0, 0, 0.2);
+}
+
 .accom {
   background-color: #f0f0f1;
   width: 80%;
@@ -318,7 +322,7 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 50px;
 }
 
-.accom-mar {
+#accom-mar {
   margin-top: -20px;
   margin-bottom: 5px;
   font-size: larger;
@@ -345,19 +349,9 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   flex-grow: 2;
 }
 
-h4 {
-  margin: 5px;
-  font-size: smaller;
-}
-
 .act-text {
   font-size: smaller;
   margin: 10px;
-}
-
-h5 {
-  margin: 5px;
-  font-weight: 400;
 }
 
 .acc-text {
@@ -378,6 +372,14 @@ h5 {
   padding: 5px;
   display: flex;
   background-color: white;
+}
+
+.most-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.most-card-au:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .morning {
@@ -502,37 +504,41 @@ html {
   margin-top: 5%;
 }
 
+input {
+  width: 76%;
+}
+
+.marker {
+  margin-right: unset;
+}
+
+.filter_title {
+  display: block;
+  width: 100%;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+
+.filters > button:nth-child(3) {
+  order: 1;
+}
+
 header {
   margin-left: 5%;
   margin-right: 5%;
 }
-/* .Links {
-  width: unset;
-}
 
-.header-wrapper {
-  justify-content: space-around;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row-reverse;
+.other-links {
+  margin-top: 0;
+  float: none;
+  width: 90%;
+  padding-top: 5%;
+  margin-right: 0;
 }
-
-.Signup {
-  margin-right: 3em;
-}
-
-.Activiteslink {
-  margin-top: 5em;
-  margin-left: 7em;
-}
-
-.Accommodations {
-  margin-top: 5em;
-}
-
-.logo {
-  margin: 0;
-} */
 
 .accom {
   width: fit-content;
@@ -544,16 +550,12 @@ header {
   width: 100%;
   margin-left: 0; 
   border-radius: 0;
-  /* margin-top: 200px; */
 }
 
-.filters {
-  width: 100%;
-}
 
-/* .most-card {
-  width: 33%;
-} */
+.more-text {
+  margin: 7%;
+}
 
 .section-wrapper {
   flex-direction: column-reverse;
@@ -571,69 +573,87 @@ header {
   margin: 0;
 }
 
+.act-card-wrapper {
+  justify-content: center;
+  gap: 2em;
+}
+
+.act-text {
+  font-size: larger;
+  margin: 5%;
+}
+
 .act-card-wrapper > section:nth-child(1) {
-  width: 330px;
-  height: 255px;
+  width: 25em;
+  height: 14em;
+  padding: 1%;
 }
 
 .OldPortImg {
-  height: 190px;
-  width: 330px;
+  height: 10em;
+  width: 25em;
 }
 
 .wrapper-twoandthree > section:nth-child(1) {
-  width: 330px;
-  height: 255px;
+  width: 25em;
+  height: 14em;
+  padding: 1%;
 }
 
 .PomeguesImg {
-  height: 190px;
-  width: 330px;
+  height: 10em;
+  width: 25em;
+  object-fit: cover;
 }
 
 .wrapper-twoandthree > section:nth-child(2) {
-  width: 330px;
-  height: 255px;
+  width: 25em;
+  height: 14em;
+  padding: 1%;
 }
 
 .FrioulImg {
-  height: 190px;
-  width: 330px;
+  height: 10em;
+  width: 25em;
 }
 
 .act-card-wrapper > section:nth-child(3) {
-  width: 330px;
-  height: 255px;
+  width: 25em;
+  height: 14em;
+  padding: 1%;
 }
 
 .CalanquesImg {
-  height: 190px;
-  width: 330px;
+  height: 10em;
+  width: 25em;
 }
 
 .wrapper-fiveandsix > section:nth-child(1) {
-  width: 330px;
-  height: 255px;
+  width: 25em;
+  height: 14em;
+  padding: 1%;
 }
 
 .NotreImg {
-  height: 190px;
-  width: 330px;
+  height: 10em;
+  width: 25em;
 }
 
 .wrapper-fiveandsix > section:nth-child(2) {
-  width: 330px;
-  height: 255px;
+  width: 25em;
+  height: 14em;
+  padding: 1%;
 }
 
 .LongchampImg {
-  height: 190px;
-  width: 330px;
+  height: 10em;
+  width: 25em;
 }
 
 .most-title {
   padding-top: 5%;
   transform: translateX(30px);
+  font-size: revert;
 }
 
 .most-card {
@@ -657,11 +677,13 @@ header {
 }
 
 .zoom {
-    background-color: #0065FC ;
-    color: white;
-    border-radius: 10px;
-    vertical-align: middle;
-    padding: 16px 15px 13px 15px;
+  background-color: #0065FC ;
+  color: white;
+  border-radius: 10px;
+  vertical-align: middle;
+  padding: 20px 15px 16px 15px;
+  margin-left: -1%;
+  margin-bottom: 1%;
 }
 
 .btops {
@@ -692,8 +714,97 @@ footer {
 }
 
 .chart {
-  margin-left: 55%;
+  margin-left: 50%;
   float: none;
 }
 
+.line {
+  width: 180%;
+  background-color: #0065FC;
+  padding: 2px;
+  margin-top: 3%;
+  margin-bottom: 10%;
+  margin-left: -18%;
+  float: left;
+}
+
+.line-gray {
+  width: 367%;
+  background-color: #e9eaeb;
+  padding: 2px;
+  margin-top: 6%;
+  margin-bottom: 10%;
+  margin-left: -168%;
+}
+
+.cards-inside {
+  font-size: larger;
+}
+
+#accom-mar {
+  font-size: x-large;
+}
+
+.acc-text {
+  font-size: larger;
+}
+}
+
+@media screen and (max-width: 768px) { 
+  .most {
+    margin-left: unset;
+    margin-bottom: 2em;
+  }
+
+  .section-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .accom {
+    width: 100%;
+  }
+
+  .tout {
+    width: 25em;
+  }
+
+  .au-coeur {
+    width: 25em;
+  }
+
+  .morning {
+    width: 25em;
+  }
+
+  input {
+    width: 76%;
+  }
+
+  .marker {
+    margin-right: unset;
+  }
+
+  .act-card-wrapper {
+    gap: 3em;
+  }
+
+  .assist {
+    margin-right: unset;
+  }
+
+  .btops {
+    margin-left: unset;
+  }
+
+  .about{
+    margin-left: unset;
+  }
+
+  .other-links {
+    justify-content: space-evenly;
+    float: unset;
+    width: unset;
+    margin-right: unset;
+    margin: 1em;
+  }
 }
