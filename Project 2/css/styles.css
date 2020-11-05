@@ -489,6 +489,65 @@ box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 768px) { 
+  .most {
+    margin-left: unset;
+    margin-bottom: 2em;
+  }
+
+  .section-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .accom {
+    width: 100%;
+  }
+
+  .tout {
+    width: 25em;
+  }
+
+  .au-coeur {
+    width: 25em;
+  }
+
+  .morning {
+    width: 25em;
+  }
+
+  input {
+    width: 76%;
+  }
+
+  .marker {
+    margin-right: unset;
+  }
+
+  .act-card-wrapper {
+    gap: 3em;
+  }
+
+  .assist {
+    margin-right: unset;
+  }
+
+  .btops {
+    margin-left: unset;
+  }
+
+  .about{
+    margin-left: unset;
+  }
+
+  .other-links {
+    justify-content: space-evenly;
+    float: unset;
+    width: unset;
+    margin-right: unset;
+    margin: 1em;
+  }
+}
+
 @media screen and (max-width: 480px) {
 
 html {
@@ -744,63 +803,4 @@ footer {
 .acc-text {
   font-size: larger;
 }
-}
-
-@media screen and (max-width: 768px) { 
-  .most {
-    margin-left: unset;
-    margin-bottom: 2em;
-  }
-
-  .section-wrapper {
-    flex-direction: column-reverse;
-  }
-
-  .accom {
-    width: 100%;
-  }
-
-  .tout {
-    width: 25em;
-  }
-
-  .au-coeur {
-    width: 25em;
-  }
-
-  .morning {
-    width: 25em;
-  }
-
-  input {
-    width: 76%;
-  }
-
-  .marker {
-    margin-right: unset;
-  }
-
-  .act-card-wrapper {
-    gap: 3em;
-  }
-
-  .assist {
-    margin-right: unset;
-  }
-
-  .btops {
-    margin-left: unset;
-  }
-
-  .about{
-    margin-left: unset;
-  }
-
-  .other-links {
-    justify-content: space-evenly;
-    float: unset;
-    width: unset;
-    margin-right: unset;
-    margin: 1em;
-  }
 }
